@@ -1,5 +1,7 @@
 # Capistrano::SimplePermissions
 
+[![Gem Version](https://badge.fury.io/rb/capistrano-simple-permissions.svg)](https://badge.fury.io/rb/capistrano-simple-permissions)
+
 Capistrano task for ensuring specific permissions (including owner and group) on files and folders on deploy.
 
 ## Installation
