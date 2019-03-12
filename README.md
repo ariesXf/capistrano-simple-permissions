@@ -24,6 +24,9 @@ And then:
 $ bundle install
 ```
 
+Then Either in your server config or general `deploy.rb`, you must set the `:permissions_folders` variable to an array
+of at least one directory; otherwise this gem won't do anything.
+
 ## How it works
 
 This gem hooks into Capistrano's deploy process by executing several `chmod` and `chown` commands after the
